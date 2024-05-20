@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NISSAN TLAXCALA </title>
+
+<link rel ="shortcut icon" thype ="image/x-icon" href= "OIP.JPG"
+
+<link rel ="shortcut icon" thype ="image/x-icon" href="OIP.JPG"
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;                                                                                             
+            background-color: #848282; /* Light green background */
+            color: #333;
+        }
+        header {
+            background-color: #504E4E; /* Dark green */
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        nav {
+            background-color: #262525; /* Medium green */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav button {
+            background: none;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Noto Serif SC', serif; /* Serif font for buttons */
+        }
+        nav button:hover {
+            background-color: #262525; /* Lighter green */
+        }
+        .content {
+            display: none;
+            padding: 20px;
+            margin: 10px 30px;
+            background-color: #ffffff; /* White background for content */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .content.active {
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #262525; /* Dark green */
+            color: white;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttons = document.querySelectorAll('nav button');
+            const contents = document.querySelectorAll('.content');
+
+            function activateContent(section) {
+                contents.forEach(content => {
+                    content.style.display = content.id === section ? 'block' : 'none';
+                });
+                buttons.forEach(button => {
+                    button.classList.toggle('active', button.dataset.section === section);
+                });
+            }
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => activateContent(button.dataset.section));
+            });
+
+            // Activate the first section by default
+            activateContent('introduction');
+        });
+    </script>
+</head>
+<body>
+    <header>
+<img src="https://th.bing.com/th/id/OIP.dBTjus9PAxVnz67P1HmigAHaGY?rs=1&pid=ImgDetMain.PNG"  alt="IMAGEN" WIDTH="100" HEIGHT="90" align="left"> 
+<img src="https://th.bing.com/th/id/OIP.dBTjus9PAxVnz67P1HmigAHaGY?rs=1&pid=ImgDetMain.PNG" alt="IMAGEN" WIDTH="100" HEIGHT="90" align="right">
+
+        <h1> NISSAN TLAXACALA </h1>
+        <h> SUCURSAL 1 </h>
+    </header>
+    <nav>
+         <button data-section="ORIGIN"> AUTOS NUEVOS </button>
+        <button data-section="WHAT IS IT?"> SEMI NUEVOS </button>
+        <button data-section="REPRESENTATIVES"> PROMOCIONES </button>
+        <button data-section="CONSEQUENCES">COMPRAR UN NISSAN</button>
+        
+
+    </nav>
+
+
+    <div id="ORIGIN" class="content active">
+        <h2> AUTOS NUEVOS </h2>
+        <p> Los carros de agencia Nissan son conocidos por su calidad, tecnología y desempeño. Nissan ofrece una amplia gama de modelos, desde autos compactos hasta SUVs y camionetas, con opciones de motorización eficiente y características innovadoras. Además, la marca se destaca por su compromiso con la seguridad y la comodidad de los conductores y pasajeros. </p>
+
+
+
+   <h1> MODELOS QUE CONTAMOS  </h1>
+
+<CENTER>
+<TD><IMG SRC="https://th.bing.com/th/id/OIP.cLVzgrKXIC0JXyrzrMEYgAHaE7?rs=1&pid=ImgDetMain.JPG".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> VERSA </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2020  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 280,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  ROJO, AZUL Y NEGRO  </H2> </TD>
+
+<TD><IMG SRC="https://th.bing.com/th/id/OIP.vMLUU4Uww6YoCyi2pSAQPgAAAA?rs=1&pid=ImgDetMain.jpg".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> NOTE </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2021  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 300,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  ROJO, BLANCO, AZUL, GRIS  </H2> </TD>
+
+<TD><IMG SRC="https://th.bing.com/th/id/OIP.mv5F--rChJeVAFW2cDT2swHaF7?rs=1&pid=ImgDetMain.jpg".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> SENTRA </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2023  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 350,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  GRIS Y AZUL   </H2> </TD>
+
+<TD><IMG SRC="https://th.bing.com/th/id/OIP.QTZBdVRo_MOJagt7KdtmQQHaE2?rs=1&pid=ImgDetMain.jpg".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> TIIDA </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2014  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 244,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  GRIS, AZUL, ROJO  </H2> </TD> 
+
+<TD><IMG SRC="https://th.bing.com/th/id/OIP.MbVt4aPekZshtw45WHAObgHaE8?rs=1&pid=ImgDetMain.jpg".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> ALMERA </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2022  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 295,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  GRIS, AZUL, ROJO, NARANJA Y NEGRO  </H2> </TD>
+
+
+    </div>
+
+     <div id="WHAT IS IT?" class="content">
+        <h2> SEMINUEVOS </h2>
+        <p>
+<CENTER>
+<TD><IMG SRC="https://th.bing.com/th/id/OIP.0qu_-Idd4Qmv6P1DDd4QDgHaFR?rs=1&pid=ImgDetMain".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> HYUNDAI ELANTRA 4P </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2020  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 350,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  ROJO, AZUL Y NEGRO  </H2> </TD>
+
+
+<TD><IMG SRC="https://th.bing.com/th/id/R.eb5c793d586854ab4edc256fbb6d326f?rik=LguHRoJ98t3seA&riu=http%3a%2f%2fimages.autotrader.com%2fscaler%2f620%2f420%2fcms%2fimages%2fcars%2fnissan%2fpathfinder%2f2013%2f2013-nissan-pathfinder-oem%2f195056.jpg&ehk=Z0tDbucmF%2fsUNt8CRNSRJRIwXzOVJrSMOAPeDYsP1xI%3d&risl=&pid=ImgRaw&r=0".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> HYUNDAI ELANTRA 4P </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2017  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 510,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  BLANCO, NARJANA Y ROJO  </H2> </TD>
+
+<TD><IMG SRC="https://www.dreamboxgate.com/imgcache/2014/392301_dreambox-sat.com.jpg".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> SPARK </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2017  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 280,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  ROJO, AZUL Y NEGRO  </H2> </TD>
+
+<TD><IMG SRC="https://th.bing.com/th?id=OIP.crYFaIkLPEno5HW3dnL5SAHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> KIA RIO </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2022  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 450,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  AZUL Y NEGRO  </H2> </TD>
+
+<TD><IMG SRC="https://th.bing.com/th?id=OIP.lA1BPC-wdjAE1L_T1WWG0QHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2".JPG WIDHT= "100" HEIGHT = "100" > <CENTER><P> <H2> WOLKSWAGEN CLASICO </H2>  </TD>
+<TR>
+<CENTER><P> <H2> AÑO: 2018  </H2> </TD>
+<TR>
+<CENTER><P> <H2> PRECIO: 250,000 PESOS </H2> </TD>
+<TR>
+<CENTER><P> <H2> COLORES DISPONIBLES:  ROJO Y NEGRO  </H2> </TD>
+
+
+    </div>
+
+    <div id="REPRESENTATIVES" class="content">
+          <h3>PROMOCIONES DEL MES DE ENERO AL 25 DE JUNIO 2024</h3>
+                <p>
+<TD><IMG SRC="https://www.nissantulancingo.com.mx/static/dealer-19915/Oferta_Comercial_NOV/artes_oferta_comercial-06.jpg?width=400".JPG WIDHT= "100" HEIGHT = "100">  </TD>
+    <IMG SRC="https://www.nissanixtapaluca.com.mx/static/dealer-20003/POSVENTA_PROMO_REVALIDACIO_N_GARANTIA_V1.jpg?width=400".JPG WIDHT= "100" HEIGHT = "100">  </TD>
+    <IMG SRC="https://www.nissanpolanco.com.mx/static/dealer-20004/A_NUEVOS-FEB-24/9.jpg?width=400".JPG WIDHT= "100" HEIGHT = "100">  </TD>
+<BR>
+    <IMG SRC="https://th.bing.com/th/id/OIP.89QkDplLw73b3x84WJSD1AAAAA?pid=ImgDet&w=179&h=219&c=7&dpr=1.3".JPG WIDHT= "100" HEIGHT = "100">  </TD>
+    <IMG SRC="https://s3-us-west-2.amazonaws.com/assets.izmocars.com/userfiles/100233/rogue14home.jpg".JPG WIDHT= "100" HEIGHT = "100">  </TD>
+    <IMG SRC="https://www.nissanagricola.com.mx/static/dealer-19926/Pop-up/332338150_742308340844334_478648780777052002_n.jpg?width=400".JPG WIDHT= "100" HEIGHT = "100">  </TD>
+
+          </p>
+           </div>
+
+
+    <div id="CONSEQUENCES" class="content">
+        <h2>  </h2>
+<p>
+<CENTER>
+<div class="col-md-10 col-md-offset-1 text-center"> 			
+<h2 class="h1 margin-bottom-x">
+    <strong>PLANES DE FINANCIAMIENTO </strong>
+</h2> 				
+<hr class="border-cta"> 				
+<p class="lead">
+<H2>"En Nissan Apizaco queremos que tu experiencia en nuestra agencia exceda tus expectativas. Nuestros asesores trabajan con personas de todo tipo de ocupaciones y se aseguran de que nuestros clientes encuentren el plan de financiamiento que se adecua a sus necesidades."<H2></p> 				
+<p class="lead">Credi Nissan ofrece planes de financiamiento a tu medida para estrenar un Nissan. Para más información consulta con uno de nuestros asesores.</p>
+
+<CENTER> 			
+<hr class="border-cta"> 				
+<p class="lead">
+  <div class="col-md-10 col-md-offset-1 text-center">
+  <h3 class="h1 margin-bottom-x">
+    <strong> COTIZACION RAPIDA </strong>
+</h3> 	
+
+   </div>
+<form name="inventoryContactForm" id="inventoryContactForm" method="post" data-dotagging-event="form_engagement" data-dotagging-event-action="click" data-dotagging-product-name="Website|Inventory Contact Us Widget" data-dotagging-event-action-result="" data-dotagging-comm-type="form" data-dotagging-form-name="Website - Inventory Contact Us Widget" data-dotagging-form-type="consumer_contact" data-dotagging-comm-status="" data-dotagging-comm-item-conditon="new" data-dotagging-department="sales" novalidate="novalidate" data-dotagging-element-type="form" class="track-everything track-everything-default track-everything-form">   <div class="row margin-bottom_5x">    
+<div class="form-group">     
+<div class="col-sm-6 firstName"> 
+     
+<label class="control-label" for="inventoryContactFirstName">       NOMBRE/S :      </label>      
+<input type="text" class="form-control stat-input-field" id="inventoryContactFirstName" name="FirstName" data-dlron-type="firstname" data-loc="contact us" required="" placeholder="NOMBRES" autocomplete="given-name" style="text-transform: capitalize;" data-dotagging-element-order="0">     
+</div> 
+    
+<div class="col-sm-6 lastName">      
+<label class="control-label" for="inventoryContactLastName"> APELLIDO PATERNO : </label>   
+<input type="text" class="form-control stat-input-field" id="inventoryContactLastName" name="LastName" data-dlron-type="lastname" data-loc="contact us" required="" placeholder="APELLIDO" autocomplete="family-name" style="text-transform: capitalize;" data-dotagging-element-order="1">     
+</div>  
+      
+ <div class="col-sm-6 mothersLastName">     
+<label for="MothersLastName" class="control-label"> APELLIDO MATERNO : </label>   
+<input type="text" class="form-control stat-input-field" id="MothersLastName" name="MothersLastName" data-dlron-type="motherslastname" data-loc="" data-dlron-ext="true" required="" placeholder="APELLIDO MATERNO" autocomplete="mothers-family-name" style="text-transform: capitalize;" data-dotagging-element-order="2">  
+         </div>     
+       </div>   
+     </div>   
+<div class="row margin-bottom_5x">    <div class="col-sm-12">     
+<button type="submit" id="inventoryContactSubmit" name="Submit" class="btn btn-cta stat-button-link" data-loc="contact us">      Enviar     </button>    
+    </div>   
+</div>
+
+<p>
+<TR> 
+   <LABEL> <A HREF="https://youtu.be/OUeUQy84JdM?t=5"> IR A VIDEO - HISTORIA DE NISSAN </a> </LABEL>
+   </TR>
+</p>
+
+
+
+
+  <BR>
+
+
+    <footer>
+        <p>&copy; 2024 AGENCIA NISSAN </p>
+        <p>&copy; MARCO POLO CUATEPZO VAZQUEZ <BR>
+                  CARLOS RAUL PALMA LIMA <BR>
+                  JUAN ANGUEL SAN MARTIN TEPATZI <BR></p>
+    </footer>
+</body>
+</html>
